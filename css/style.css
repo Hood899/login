@@ -86,3 +86,24 @@ p {
     color: orangered;
 }
 
+
+@media screen and (max-width: 600px) {
+  .login_page {
+    width: 95%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 1.2rem ;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  input {
+    font-size: 0.9rem;
+  }
+}
+
+

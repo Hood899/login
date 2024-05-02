@@ -89,8 +89,8 @@ p {
 
 @media screen and (max-width: 600px) {
   .login_page {
-    width: 95%;
-    height: auto;
+    width: 90%;
+    height: 100vh;
   }
 
   h1 {

@@ -91,6 +91,11 @@ p {
   .login_page {
     max-width: 100%;
     padding: 10px;
+    border-radius: none;
+  }
+  
+  form {
+    border-radius: 20px;
   }
   
   .login_page h1 {

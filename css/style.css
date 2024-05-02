@@ -89,20 +89,19 @@ p {
 
 @media screen and (max-width: 600px) {
   .login_page {
-    width: 90%;
-    height: 100vh;
+    max-width: 100%;
+    padding: 10px;
   }
-
-  h1 {
-    font-size: 1.2rem ;
+  
+  .login_page h1 {
+    font-size: 24px;
   }
-
-  p {
-    font-size: 0.9rem;
-  }
-
-  input {
-    font-size: 0.9rem;
+  
+  .login_page input[type="text"],
+  .login_page input[type="password"],
+  .login_page button {
+    width: 100%;
+    margin-bottom: 10px;
   }
 }
 
